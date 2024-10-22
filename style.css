@@ -1,0 +1,156 @@
+body {
+    font-family: Ubuntu;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(86, 79, 79);
+}
+
+header {
+    background-color: rgb(146, 25, 146);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.introduction, .input-section, .how-it-works, .about, .contact {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: rgb(146, 25, 146);
+    border-bottom: 2px solid rgb(146, 25, 146);
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(146, 25, 146);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(146, 25, 146);
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.prediction-result {
+    margin-top: 20px;
+    background-color: #e7f3e7;
+    padding: 15px;
+    border-radius: 5px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(146, 25, 146);
+    color: white;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.settings {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    right: 20px;
+    border-radius: 5px;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.profile-icon {
+    font-size: 40px; /* Adjust size as needed */
+    color: white; /* Change color to match the header */
+    margin-right: 20px;
+}
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
